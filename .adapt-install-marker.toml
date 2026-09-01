@@ -1,0 +1,9 @@
+marker-schema-version = "0.1"
+
+[[packs-installed]]
+name = "core"
+version = "2.18.2"
+installed-at = 2026-09-01T11:17:28Z
+install-route = "cli"
+unresolved-markers = []
+new-companions = [".gitignore.upstream"]
