@@ -7,8 +7,8 @@
 > Direction for the next 2-4 quarters. **Not** commitments. The whole point
 > of writing this down is that it can change.
 
-**Last updated:** YYYY-MM-DD
-**Reviewed:** quarterly. Next review: YYYY-MM-DD.
+**Last updated:** 2026-09-02
+**Reviewed:** quarterly. Next review: 2026-12-02.
 
 If the current date is more than 90 days past "Last updated", treat this
 file as stale and ask before relying on it.
@@ -18,8 +18,7 @@ file as stale and ask before relying on it.
 What we're actively working on. Each item should link to a spec in
 `docs/specs/` once one exists.
 
-- **<theme>.** <one-sentence description.> [spec: link]
-- **<theme>.** ...
+- **Expense logging.** `expense-tracker log` — record an expense (amount, category, date range, optional description) to a local JSON file. [spec: docs/specs/log-expense/spec.md]
 
 ## Next (following 1-2 quarters)
 

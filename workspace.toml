@@ -20,4 +20,6 @@
 
 [backlog]
 open = []
-closed = []
+closed = [
+  { path = "docs/specs/log-expense/spec.md", kind = "spec", source = { mode = "repo-origin" }, summary = "CLI command to log one expense — amount, category, date range, optional description — to a local JSON store", needs = [] },
+]

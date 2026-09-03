@@ -6,9 +6,10 @@
 
 ## Project overview
 
-This is <project-name>—<one-line description of what it does and for whom>.
+This is `expense-tracker` — a personal command-line tool that records expenses (amount, category, date range, optional description) to a local JSON file. Single maintainer, Python 3.11+, standard library only at runtime.
 
-Link the repository's existing architecture or design source here when one exists. Do not relocate it to match a pack convention.
+Architecture: [`docs/architecture/reference.md`](docs/architecture/reference.md).
+Stack decision: [`docs/adr/0001-python-stdlib-json-file-store.md`](docs/adr/0001-python-stdlib-json-file-store.md).
 
 ## Rule lookups
 
@@ -28,14 +29,16 @@ outranks existing guidance.
 ## Build and test commands
 
 ```bash
-<install command>
-<test command>
-<lint command>
-<build command>
+# Install (editable, with test dependency):
+pip install -e ".[test]"
+
+# Run all tests:
+pytest
+
+# Lint: none configured yet.
 ```
 
-Use commands verified from repository guidance, manifests, task runners, or CI.
-Do not guess them from the detected language alone.
+Commands verified against `pyproject.toml` and the passing test suite.
 
 ## Coding conventions
 

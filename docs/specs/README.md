@@ -19,7 +19,7 @@ docs/specs/<feature>/
 
 | Spec | Status | Constrained by | Notes |
 | --- | --- | --- | --- |
-<!-- no specs yet -->
+<!-- no active specs -->
 
 ## Shipped specs (archived)
 
@@ -28,7 +28,7 @@ docs/specs/<feature>/
 
 | Spec | Status | Constrained by | Notes |
 | --- | --- | --- | --- |
-<!-- no shipped specs yet -->
+| [`log-expense`](log-expense/spec.md) | Shipped | [ADR-0001](../adr/0001-python-stdlib-json-file-store.md) | `log` command — amount, category, date range, optional description → local JSON store |
 
 ## Adding a new spec
 
